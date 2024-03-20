@@ -1,6 +1,8 @@
 # Step1 クライアントとサーバー
 
 ## １. 開発環境の構築
+**開発環境**とは、アプリケーションを開発するための作業環境やツールのことを言います。  
+また、開発環境を整えることを**環境構築**といいます。
 
 ### Gitの導入
 
@@ -31,7 +33,10 @@
       (3) training-warehouse-management_jpの下向き矢印をクリックして下さい。  
       (4) Parent Folderでクローンを作成する場所を選択し、Cloneをクリックします。
 
-### Javaのインストール・環境変数の設定
+### Javaのインストール・環境変数[^3]の設定
+
+[^3]: 環境変数とは、OSが動作しているときに使用する変数(値を入れておく箱)のことです。ファイルやディレクトリの場所を示す文字列(パス)を入れておくことで、どんなに深い階層のファイルやディレクトリでも一気に開くことができます。
+
 
 - [こちら](https://www.oracle.com/java/technologies/downloads/#java11)のサイトから`JDK11` をインストールします。
   - **`JDK11`をどこにインストールしたのか、確認しておいてください。**
@@ -72,10 +77,10 @@
 
 ### Dockerのインストール
 
-- [こちら](https://docs.docker.com/desktop/install/windows-install/)から`Docker Desktop`[^3] をインストールします。
+- [こちら](https://docs.docker.com/desktop/install/windows-install/)から`Docker Desktop`[^4] をインストールします。
   - [参考サイト](https://www.kagoya.jp/howto/cloud/container/wsl2_docker/)
 
-[^3]: `Docker Desktop`を起動する前に、WSL Linuxカーネルを更新しなければいけない場合があります(Windows)。[こちら](https://kb.seeck.jp/archives/16956)を参考に更新してください。
+[^4]: `Docker Desktop`を起動する前に、WSL Linuxカーネルを更新しなければいけない場合があります(Windows)。[こちら](https://kb.seeck.jp/archives/16956)を参考に更新してください。
 
 - 以下の指示に従って、Dockerコンテナを起動してください。
    1. `Git Bash`もしくは `terminal`を起動します。
